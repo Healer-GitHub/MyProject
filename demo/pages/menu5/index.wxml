@@ -1,0 +1,25 @@
+<!--pages/menu5/index.wxml-->
+<image class="logo" src="http://demo.sc.chinaz.com/Files/pic/icons/7702/Dm7.png"></image>
+<view class="jies">
+
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个专卖数码产品的微信小程序，致力于打造一个更简洁、更方便的数码购物网上商城，让每一个客户能买到自己满意的产品。</text>
+</view>
+
+<view bindtap="contact">
+ <button class='btn1'>
+    <image class='btnImg' src="/images/客服.png"></image>
+    <view>联系客服</view>
+ </button>
+ </view>
+
+ <button class='btn2'>
+    <image class='btnImg2' src="/images/wink.png"></image>
+    <view>意见反馈</view>
+ </button>
+
+ <navigator url="/pages/menu5/guanyu">
+ <button class='btn2'>
+    <image class='btnImg2' src="/images/wink.png"></image>
+    <view>关于</view>
+ </button>
+ </navigator>

@@ -1,0 +1,53 @@
+<!--pages/index/index.wxml-->
+<!-- <button bindtap="credit">获取用户的积分</button> -->
+<!-- 用户头像 -->
+<!-- <open-data type="userAvatarUrl"></open-data> -->
+<!-- 用户昵称 -->
+<!-- <open-data type="userNickName"></open-data> -->
+<!-- 用户性别 -->
+<!-- <open-data type="userGender" lang="zh_CN"></open-data> -->
+<!-- 单击按钮提示授权 -->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo}}" open-type="getUserInfo"
+     bindgetuserinfo="getUserInfo"> 用户登录 </button>
+    <block wx:else>
+      <!-- 用户头像 -->
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"
+       mode="cover"></image>
+      <!-- 用户昵称 -->
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <!-- 用户所在城市 -->
+      <text class="userinfo-nickname">{{userInfo.city}}</text>
+      <!-- 用户性别 -->
+      <open-data type="userGender" lang="zh_CN"></open-data>
+    </block>
+  </view>
+</view>
+<!-- 开放数据加密与解密 -->
+<!-- <button bindtap="sendUserInfo">将用户信息发给服务器</button> -->
+<view class="content">
+  <view>
+    <image src="/images/iconone.png"></image>
+    <view>待付款</view>
+  </view>
+  <view>
+    <image src="/images/icontwo.png"></image>
+    <view>已退款</view>
+  </view>
+  <view bindtap="allorders">
+    <image src="/images/iconthree.png"></image>
+    <view>全部订单</view>
+  </view>
+</view>
+<view class="menu">
+  <view bindtap="info">个人资料
+    <image class="arrow" src="/images/arrow.png"></image>
+  </view>
+  <view bindtap="order">订单物流查询
+    <image class="arrow" src="/images/arrow.png"></image>
+  </view>
+  <view bindtap="address">选择收获地址
+    <image class="arrow" src="/images/arrow.png"></image>
+  </view>
+</view>

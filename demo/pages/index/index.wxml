@@ -1,0 +1,36 @@
+<!-- <view class="ad01">
+<image mode="widthFix" class="ad01-img" src="images/ad01.png"></image>
+</view>
+<view><image src="images/checkbox_on.png"></image></view> -->
+<view class="page">
+  <view class="page__hd">
+    <!-- <text class="page__title">数码城</text>
+    \n -->
+    <image src="/images/ad01.jpg" style="width: 414px; height: 125px; display:flex;"  ></image>
+    <navigator url = "/pages/index1/index1">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584081118788&di=c1de2c53add8993a1270ee4b4e709270&imgtype=0&src=http%3A%2F%2Fimg10.360buyimg.com%2Fimgzone%2Fjfs%2Ft15805%2F285%2F2090917675%2F625878%2F7ce480ba%2F5a781395N0d11249d.gif" style="width: 414px; height: 250px; display:flex;"  ></image>
+    </navigator>
+    \n
+    <view>
+    <navigator url = "/pages/index1/index2">
+    <image src="http://img2.imgtn.bdimg.com/it/u=1122638495,317673651&fm=26&gp=0.jpg" style="width: 205px; height: 205px; display:flex;"  ></image>
+    </navigator>
+    <navigator url = "/pages/index1/index3">
+    <image src="http://img3.imgtn.bdimg.com/it/u=2373145162,623002007&fm=26&gp=0.jpg" style="float:right;width: 205px; height: 205px; display:flex;"  ></image>
+    </navigator>
+    </view>
+    \n
+    <navigator url = "/pages/index1/index4">
+    <image src="http://hiphotos.baidu.com/space/pic/item/43a7d933c895d143a77e03747cf082025aaf0758.jpg" style="width: 414px; height: 250px; display:flex;"  ></image>
+    </navigator>
+    <image src="/images/ad02.jpg" style="width: 414px; height: 250px; display:flex;"   ></image>
+  </view>
+  <view class="page__bd">
+    <view class="section section_gap" wx:for-items="{{array}}" wx:for-item="item">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section__ctn">
+        <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

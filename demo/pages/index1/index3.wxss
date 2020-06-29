@@ -1,0 +1,43 @@
+/* pages/index1/index3.wxss */
+.page_title{
+  background: #DEB887;
+  font-size: 30px;
+  width: 414px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_money{
+  background: #DEB887;
+  font-size: 25px;
+  width: 414px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn1 {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: burlywood;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 55rpx;
+  height: 46rpx;
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}

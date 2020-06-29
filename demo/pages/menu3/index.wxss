@@ -1,0 +1,78 @@
+/* pages/index/index.wxss */
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+/* 服务 */
+page {
+  background-color: #f4f4f4;
+  font-size: 32rpx;
+}
+
+
+.content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 65rpx 0;
+}
+
+.content > view {
+  flex: 1;
+  text-align: center;
+}
+
+.content > view > image {
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.menu {
+  padding: 20rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  box-sizing: border-box;
+}
+
+.menu > view {
+  padding: 20rpx;
+  line-height: 60rpx;
+  border-bottom: 1px solid #efefef;
+  height: 60rpx;
+}
+
+.menu > view:last-child {
+  border: none;
+}
+
+.arrow {
+  width: 30rpx;
+  height: 32rpx;
+  float: right;
+  margin-top: 16rpx;
+}

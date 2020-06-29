@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu2/list",
+    "pages/order/checkout/checkout",
+    "pages/order/detail/detail",
+    "pages/order/list/list",
+    "pages/menu3/index",
+    "pages/detail/detail",
+    "pages/order1/order",
+    "pages/address/address",
+    "pages/menu4/index",
+    "pages/menu5/index",
+    "pages/menu5/guanyu",
+    "pages/index1/index1",
+    "pages/index1/index2",
+    "pages/index1/index3",
+    "pages/index1/index4"
+    ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle": "black"
+  }
+  
+ 
+  ,
+  "tabBar": {
+    "color":"#999999",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/0.png",
+        "selectedIconPath":"images/0_filled.png"
+      },
+      {
+        "pagePath": "pages/menu2/list",
+        "text": "所有分类",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1_filled.png"
+      }
+      ,
+      {
+        "pagePath": "pages/menu3/index",
+        "text": "我的主页",
+        "iconPath": "images/user.png",
+        "selectedIconPath":"images/user_filled.png"
+      }
+      ,
+      {
+        "pagePath": "pages/menu4/index",
+        "text": "购物车",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping_filled.png"
+      }
+      ,
+      {
+        "pagePath": "pages/menu5/index",
+        "text": "联系我们",
+        "iconPath": "images/assistance.png",
+        "selectedIconPath": "images/assistance_filled.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

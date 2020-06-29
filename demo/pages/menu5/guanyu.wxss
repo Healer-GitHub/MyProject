@@ -1,0 +1,7 @@
+/* pages/menu5/guanyu.wxss */
+.gy{
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}

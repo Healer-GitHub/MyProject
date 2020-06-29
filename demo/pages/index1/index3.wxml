@@ -1,0 +1,14 @@
+<!--pages/index1/index3.wxml-->
+<text class="page_title">戴尔笔记本</text>
+\n
+<image src="http://img2.imgtn.bdimg.com/it/u=3221344814,3564168976&fm=26&gp=0.jpg" style="width: 414px; height: 250px; display:flex;"  ></image>
+\n
+<text class="page_money">价格：￥3999
+</text>
+<image src="/images/shopping.jpg" style="width: 50px; height: 50px;"></image>
+<image src="/images/favorites.png" style="width: 50px; height: 50px;"></image>
+ <button class='btn1' open-type='openSetting'>
+    <image class='btnImg' src='/images/buy1.png'></image>
+    <view>立即抢购</view>
+ </button>
+

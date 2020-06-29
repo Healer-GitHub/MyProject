@@ -1,0 +1,13 @@
+<!--pages/index1/index1.wxml-->
+<text class="page_title">Microsoft Surface pro 3</text>
+\n
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584080890264&di=5b59f0cb99550a437acac193d9f59ac7&imgtype=0&src=http%3A%2F%2Fimg1.mydrivers.com%2Fimg%2F20191001%2F62cf9efe17c6481f9bc978388721fa9e.jpg" style="width: 414px; height: 250px; display:flex;"  ></image>
+\n
+<text class="page_money">价格：￥3999
+</text>
+<image src="/images/shopping.jpg" style="width: 50px; height: 50px;"></image>
+<image src="/images/favorites.png" style="width: 50px; height: 50px;"></image>
+ <button class='btn1' open-type='openSetting'>
+    <image class='btnImg' src='/images/buy1.png'></image>
+    <view>立即抢购</view>
+ </button>

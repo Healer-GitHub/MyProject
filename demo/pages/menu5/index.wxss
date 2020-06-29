@@ -1,0 +1,79 @@
+/* pages/menu5/index.wxss */
+/* .btn1{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+
+.btnImg {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.btn1::after {
+  border: 0; 
+} */
+.logo{
+  width: 100%;
+  background-color: rgb(170, 231, 255);
+}
+
+.jies {
+  width: 100%;
+  background-color: rgb(170, 231, 255);
+  color: rgb(39, 71, 112);
+}
+
+.btn1 {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: rgb(170, 231, 255);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 55rpx;
+  height: 46rpx;
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+
+.btn2 {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: rgb(170, 231, 255);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg2 {
+  margin-right: 8rpx;
+  width: 55rpx;
+  height: 46rpx;
+}
+
+.btn2::after {
+  border-radius: 98rpx;
+  border: 0; 
+}

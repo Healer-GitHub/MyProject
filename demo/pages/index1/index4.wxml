@@ -1,0 +1,14 @@
+<!--pages/index1/index4.wxml-->
+<text class="page_title">小米10</text>
+\n
+<image src="http://hiphotos.baidu.com/space/pic/item/bf096b63f6246b6065085723e4f81a4c510fa267.jpg" style="width: 414px; height: 250px; display:flex;"  ></image>
+\n
+<text class="page_money">价格：￥3999
+</text>
+<image src="/images/shopping.jpg" style="width: 50px; height: 50px;"></image>
+<image src="/images/favorites.png" style="width: 50px; height: 50px;"></image>
+ <button class='btn1' open-type='openSetting'>
+    <image class='btnImg' src='/images/buy1.png'></image>
+    <view>立即抢购</view>
+ </button>
+
